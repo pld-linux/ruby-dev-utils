@@ -13,6 +13,7 @@ URL:	http://dev-utils.rubyforge.org/
 BuildRequires:	ruby
 BuildRequires:	ruby-devel
 Requires:	ruby
+Requires:	ruby-extensions
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
