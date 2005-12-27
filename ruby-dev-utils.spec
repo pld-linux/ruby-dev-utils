@@ -2,16 +2,16 @@ Summary:	Tools to aid Ruby development
 Summary(pl):	Narzêdzia pomagaj±ce przy programowaniu w jêzyku Ruby
 Name:		ruby-dev-utils
 Version:	1.0.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages
 Source0:	http://rubyforge.org/frs/download.php/1678/dev-utils-%{version}.tgz
 # Source0-md5:	4869bdb1d0f72ab015110797e691a530
 URL:		http://dev-utils.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby
+BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
-Requires:	ruby
+Requires:	ruby-modules
 Requires:	ruby-extensions
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
