@@ -9,7 +9,6 @@ Source0:	http://rubyforge.org/frs/download.php/1678/dev-utils-%{version}.tgz
 # Source0-md5:	4869bdb1d0f72ab015110797e691a530
 URL:		http://dev-utils.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
 Requires:	ruby-modules
 Requires:	ruby-extensions
