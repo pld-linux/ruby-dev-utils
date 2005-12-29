@@ -8,9 +8,9 @@ Group:		Development/Languages
 Source0:	http://rubyforge.org/frs/download.php/1678/dev-utils-%{version}.tgz
 # Source0-md5:	4869bdb1d0f72ab015110797e691a530
 URL:		http://dev-utils.rubyforge.org/
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-Requires:	ruby-modules
+%ruby_mod_ver_requires_eq
 Requires:	ruby-extensions
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
