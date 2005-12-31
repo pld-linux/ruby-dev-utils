@@ -10,7 +10,7 @@ Source0:	http://rubyforge.org/frs/download.php/1678/dev-utils-%{version}.tgz
 URL:		http://dev-utils.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-%ruby_mod_ver_requires_eq
+%{?ruby_mod_ver_requires_eq}
 Requires:	ruby-extensions
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
