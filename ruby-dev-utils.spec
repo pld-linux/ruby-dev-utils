@@ -1,5 +1,5 @@
 Summary:	Tools to aid Ruby development
-Summary(pl.UTF-8):   Narzędzia pomagające przy programowaniu w języku Ruby
+Summary(pl.UTF-8):	Narzędzia pomagające przy programowaniu w języku Ruby
 Name:		ruby-dev-utils
 Version:	1.0.1
 Release:	2
