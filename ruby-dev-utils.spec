@@ -1,5 +1,5 @@
 Summary:	Tools to aid Ruby development
-Summary(pl):	Narzêdzia pomagaj±ce przy programowaniu w jêzyku Ruby
+Summary(pl.UTF-8):   NarzÄ™dzia pomagajÄ…ce przy programowaniu w jÄ™zyku Ruby
 Name:		ruby-dev-utils
 Version:	1.0.1
 Release:	2
@@ -19,9 +19,9 @@ dev-utils provides utilites to assist the process of developing Ruby
 programs. At the moment, the target areas are debugging and unit
 testing (planned).
 
-%description -l pl
-Pakiet dev-utils dostarcza narzêdzia pomagaj±ce przy procesie
-tworzenia programów w jêzyku Ruby. Aktualnie docelowe obszary to
+%description -l pl.UTF-8
+Pakiet dev-utils dostarcza narzÄ™dzia pomagajÄ…ce przy procesie
+tworzenia programÃ³w w jÄ™zyku Ruby. Aktualnie docelowe obszary to
 odpluskwianie i testy jednostkowe (planowane).
 
 %prep
